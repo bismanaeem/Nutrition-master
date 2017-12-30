@@ -1,0 +1,288 @@
+#Login{
+	-fx-background-image: url("Pictures/exerciseWall.jpg");
+	-fx-background-repeat: stretch; 
+	-fx-background-position: center center;
+}
+
+.button:hover{
+	-fx-background-color: #005853;
+	-fx-text-fill: #ffffff;
+	-fx-text-alignment: center;
+}
+
+#createPlanBtn:hover{
+	-fx-background-color: #005853;
+	-fx-text-fill: #ffffff;
+	-fx-text-alignment: center;
+}
+
+#hBoxPlans{
+	-fx-background-color: white;
+	-fx-background-radius:5.0px;
+	-fx-border-width: 1.0;
+}
+
+#borderAdmin{
+	-fx-background-color: white;
+	-fx-background-radius:5.0px;
+	-fx-border-width: 1.0;
+}
+
+#nutPlanList > *.content{
+	-fx-background-color: transparent ;
+}
+
+#nutPlanList .title{
+	-fx-background-color: transparent ;
+	-fx-border-color: turquoise;
+}
+
+#mealsPane > *.content{
+	-fx-background-color: transparent ;
+}
+
+#mealsPane .title{
+	-fx-background-color: transparent ;
+	-fx-border-color: turquoise;
+}
+
+#dayPane > *.content{
+	-fx-background-color: transparent ;
+}
+
+#dayPane .title{
+	-fx-background-color: transparent ;
+	-fx-border-color: turquoise;
+}
+
+
+#anchorPaneUpdateUser{
+	-fx-background-color: white;
+	-fx-background-radius:5.0px;
+	-fx-border-width: 1.0;
+}
+
+#updateUserBtn{
+	-fx-background-radius:3.0px;
+	-fx-font-weight: bold;
+}
+
+#anchorPaneBar{
+	-fx-background-color: turquoise;
+}
+
+#createPlanBtn{
+	-fx-background-color: turquoise;
+	-fx-border-width: 0.0;
+	-fx-font-size: 15.0px;
+	-fx-text-fill: white;
+	-fx-background-radius:3.0px;
+	-fx-font-weight: bold;
+}
+
+.button{
+	-fx-background-color: turquoise;
+	-fx-border-width: 0.0;
+	-fx-background-radius: 3.0;
+	-fx-font-size: 15.0px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+
+#HomePage{
+	-fx-background-image: url("Pictures/homePage.jpg");
+	-fx-background-repeat: stretch; 
+	-fx-background-position: center center;
+}
+
+#Preloader{
+	-fx-background-image: url("Pictures/preloaderWall.jpg");
+	-fx-background-repeat: stretch; 
+	-fx-background-position: center center;
+	-fx-background-size: 800.0 500.0;
+}
+
+#AddUser{
+	-fx-background-image: url("Pictures/exerciseWall.jpg");
+	-fx-background-repeat: stretch; 
+	-fx-background-position: center center;
+}
+
+#userIdLogin{
+	-fx-border-radius: 20.0px;
+}
+
+#login:hover{
+	-fx-background-color: #005853;
+	-fx-text-fill: #ffffff;
+	-fx-text-alignment: center;
+}
+
+#login {
+	-fx-background-color: turquoise;
+	-fx-border-width: 0.0;
+	-fx-font-size: 15.0px;
+	-fx-text-fill: white;
+	-fx-background-radius:3.0px;
+}
+
+#addUserLogin:hover{
+	-fx-background-color: #005853;
+	-fx-text-fill: #ffffff;
+	-fx-text-alignment: center;
+}
+
+#addUserLogin {
+	-fx-background-color: turquoise;
+	-fx-border-width: 0.0;
+	-fx-font-size: 15.0px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-background-radius:3.0px;
+}
+
+#confirmAddUser:hover{
+	-fx-background-color: #005853;
+	-fx-text-fill: #ffffff;
+	-fx-text-alignment: center;
+}
+
+#confirmAddUser {
+	-fx-background-color: turquoise;
+	-fx-border-width: 0.0;
+	-fx-font-size: 15.0px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-background-radius:3.0px;
+}
+
+#backAddUser:hover{
+	-fx-background-color: #005853;
+	-fx-text-fill: #ffffff;
+	-fx-text-alignment: center;
+}
+
+#facebookBtn{
+	-fx-background-color: #3B5998;
+	-fx-graphic: url("Pictures/fb-logo.png")
+}
+
+#facebookBtn:hover{
+	-fx-background-color: white;
+	-fx-text-fill: #3B5998;
+	-fx-graphic: url("Pictures/fb-logo-b.png")
+}
+
+#backAddUser {
+	-fx-background-color: turquoise;
+	-fx-border-width: 0.0;
+	-fx-font-size: 15.0px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-background-radius:3.0px;
+}
+
+.tree-table-view{
+    -fx-tree-table-color: turquoise;
+    -fx-tree-table-rippler-color : white;
+    -fx-border-width: 0.0;
+    -fx-border-style: none;
+}
+.tree-table-view:focused .tree-table-row-cell:selected {
+    -fx-background-color: -fx-tree-table-color  ;
+    -fx-table-cell-border-color: -fx-tree-table-color;
+}
+
+.tree-table-view:focused .tree-table-row-cell:selected .tree-table-cell{
+    -fx-text-fill: black;
+}
+
+.tree-table-view .jfx-rippler {
+    -fx-rippler-fill: -fx-tree-table-rippler-color;
+}
+
+.tree-table-view .column-header ,
+.tree-table-view .column-header-background,
+.tree-table-view .column-header-background .filler{
+    -fx-background-color:TRANSPARENT;
+}
+
+.tree-table-view .column-header{
+    -fx-border-width : 0.0 1.0 0.0 1.0;
+    -fx-border-color: #F3F3F3;
+}
+
+.tree-table-view .column-header .label {
+    -fx-text-fill : #949494;
+    -fx-padding : 16.0 0.0 16.0 0.0 ;
+}
+
+.tree-table-view .column-header .arrow, .tree-table-view .column-header .sort-order-dot{ 
+    -fx-background-color : #949494;
+}
+
+.tree-table-view .column-header:last-visible {
+    -fx-border-width: 0.0 2.0 0.0 1.0;
+}
+
+.tree-table-view .column-header-background{
+    -fx-border-width : 0.0 0.0 1.0 0.0;
+    -fx-border-color:#F3F3F3;
+}
+
+.tree-table-view .tree-table-cell{
+    -fx-border-width:0.0 0.0 0.0 0.0;
+    -fx-padding : 16.0 0.0 16.0 0.0 ;
+    -fx-alignment: center;
+}
+
+.tree-table-view .column-overlay{
+    -fx-background-color: -fx-tree-table-color;
+}
+
+.tree-table-view .column-resize-line, .tree-table-view .column-drag-header{
+    -fx-background-color: -fx-tree-table-rippler-color;
+}
+
+.tree-table-view:focused {
+    -fx-background-color: -fx-tree-table-color,-fx-box-border,-fx-control-inner-background;
+    -fx-background-insets: -1.4, 0.0, 1.0;
+    -fx-background-radius: 1.4, 0.0, 0.0;
+    /*....*/
+    -fx-padding: 1.0; /* 0.083333em; */
+}
+
+.tree-table-row-cell > .tree-disclosure-node > .arrow {
+    -fx-background-color: -fx-text-fill;
+    -fx-padding: 0.333333em 0.229em 0.333333em 0.229em; /* 4 */
+    -fx-shape: "M 0 -3.5 L 4 0 L 0 3.5 z";
+}
+.tree-table-row-cell .jfx-text-field{
+    -fx-focus-color: rgba(240.0,40.0,40.0);
+}
+
+#listView:selected {
+	-fx-background-color: rgb(151.0,192.0,255.0) ;
+}
+
+.list-view .scroll-bar:horizontal .increment-arrow,
+.list-view .scroll-bar:horizontal .decrement-arrow,
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button {
+    -fx-padding:0.0;
+}
+
+#myPlansTable .scroll-bar:horizontal .increment-arrow,
+#myPlansTable .scroll-bar:horizontal .decrement-arrow,
+#myPlansTable .scroll-bar:horizontal .increment-button,
+#myPlansTable .scroll-bar:horizontal .decrement-button{
+	-fx-padding:0.0;
+}
+
+.jfx-snackbar-content{
+	-fx-background-color: #323232;
+}
+
+.jfx-snackbar-toast{
+	-fx-text-fill: white;
+}
